@@ -1,0 +1,70 @@
+html{
+    background: url("9j234Zcr.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+
+    display:flex;
+
+    align-items: center;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+.title{
+    font-size: 70px;
+}
+.write{
+    background-color: antiquewhite;
+    box-shadow: 0 0 5px #030000, 0 0 10px #02020c;
+
+    font-family: 'Lucida Sans';
+    font-size: 27px;
+    color: black;
+    padding: 2%;
+    opacity: 0.6;
+}
+.photo-1{
+    box-shadow: 0 0 5px #030000, 0 0 10px #02020c;
+}
+@media (max-width: 768px) {
+    html{
+        background: none;
+        background: url("9j234Zcr.jpg") no-repeat center center fixed;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .write{
+        width:90%;
+        font-size: 21px;
+    }
+}
+@media (max-width: 990px) {
+    html{
+        background: none;
+        background: url("9j234Zcr.jpg") no-repeat center center fixed;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .write{
+        width:90%;
+    }
+    
+}

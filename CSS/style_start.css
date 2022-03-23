@@ -1,0 +1,107 @@
+html {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: url("thumb-1920-1065466.png") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+.menu {
+    width: 1800px;
+    height: 100px;
+
+    text-align: center;
+}
+.menu-item {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 90px 10px;
+
+    font-family: 'Kaushan Script', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 27px;
+    font-family: "Bungee";
+
+    color: rgb(255, 97, 35);
+    vertical-align: bottom;
+    background-color: transparent;
+    border-width: 2px;
+    border-color: rgb(255, 97, 35);
+
+}
+.menu-item:hover{
+    background-color: cornsilk;
+    opacity: 0.7;
+    box-shadow: 0 0 5px #030000, 0 0 10px #02020c;
+}
+.hover{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.hover p{
+    visibility: hidden;
+
+    background-color: antiquewhite;
+    font-size: 25px;
+    font-family: "Acme";
+    text-align: center;
+    box-shadow: 0 0 5px #030000, 0 0 10px #02020c;
+
+    border-radius: 20px;
+
+    opacity: 0.7;
+    color: rgb(255, 97, 35);
+    width: 1700px;
+}
+div:hover p{
+    visibility: visible;
+}
+@media (max-width: 768px) {
+    html{
+        background: none;
+        background: url("thumb-1920-1065466.png") no-repeat center center fixed;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 20%;
+    }
+    .menu{
+        display:flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .menu-item{
+        width:100%;
+    }
+
+}
+@media (max-width: 990px) {
+    html{
+        background: none;
+        background: url("thumb-1920-1065466.png") no-repeat center center fixed;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .menu{
+        display:flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .menu-item{
+        width:100%;
+    }
+}
+

@@ -1,0 +1,102 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    background: url("portocaliu.webp") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+    font-family: "Kaushan Script";
+    font-size: 120px;
+    color: rgb(250, 124, 74);
+    text-shadow: 0 0 5px #030000, 0 0 10px #02020c;
+
+    background-image: url("playing_future_days1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    
+    width: 800px;
+    height: 800px;
+    padding: 55px 20px;
+    border-color: transparent;
+
+    font-family: "Anton";
+    box-shadow: 0 0 5px #030000, 0 0 10px #02020c;
+    margin-right: 10px;
+}
+.page-grid{
+    display: flex;
+
+    background: url("portocaliu.webp") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    padding: 30px 20px;
+
+    font-size: 20px;
+
+    border-color: transparent;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+@media (max-width: 768px) {
+    html{
+        background: none;
+        background: url("portocaliu.webp") no-repeat center center fixed;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        width:100%;
+        height:100%;
+    }
+    .page-grid{
+        height:auto;
+    }
+    .title{
+        width: 100%;
+        height:5%;
+        margin-left: 1%;
+        font-size: 500%;
+    }
+}
+@media (max-width: 990px) {
+    html{
+        background: none;
+        background: url("portocaliu.webp") no-repeat center center fixed;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        width:100%;
+        height:100%;
+    }
+    .page-grid{
+        height:auto;
+    }
+    .title{
+        width: 100%;
+        height:20%;
+        margin-left: 1%;
+    }
+}

@@ -1,0 +1,92 @@
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: url("blue.webp") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+.title{
+    font-family: 'Lobster';
+    font-size: 180px;
+    color: antiquewhite;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+movie{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 768px) {
+    html{
+    background: none;
+    background: url("blue.webp") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .video{
+        width:80%;
+    }
+    .movie{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 990px) {
+    html{
+        background: none;
+        background: url("blue.webp") no-repeat center center fixed;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .movie{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 1270px) {
+    html{
+        background: none;
+        background: url("blue.webp") no-repeat center center fixed;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .movie{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}

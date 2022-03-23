@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+html
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: url("window.webp") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    margin-left: 10%;
+}
+@media (max-width: 768px) {
+    html{
+    background: none;
+    background: url("window.webp") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    }
+    body{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .photo{
+        width: 60%;
+    }
+}
+@media (max-width: 990px) {
+    html{
+        background: none;
+        background: url("window.webp") no-repeat center center fixed;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+    }
+    body{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .photo{
+        width: 70%;
+    }
+}

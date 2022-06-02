@@ -1,0 +1,54 @@
+html{
+    display: flex;
+    height:100%;
+    overflow-y: scroll;
+}
+body
+{
+    background: url("day.svg") no-repeat center center;
+    background-color: #ebd5b4;
+    background-size: cover;
+    height: 100%;
+    width: 95%;
+    position: absolute;
+
+    left:5vh;
+    right:5vh;
+}
+#day{
+   position: absolute;
+
+   top: 5px;
+   right: 11px;
+   width:10vh;
+   height:10vh;
+}
+#day:hover{
+    transform: rotate(360deg);
+    transition: all 2s;
+}
+#title
+{
+    font-family: "Ewert";
+    font-size: 500%;
+    text-align: left;
+    
+    margin-top: 2%;
+}
+#information
+{
+    font-family: "Passero One";
+    text-align:left;
+    font-size: 200%;
+    padding: 2vh;
+}
+#trigger{
+    float: left;
+    height:20vh;
+    width:20vh;
+}
+#trigger:hover{
+    transform: rotate(10deg);
+
+    transition: all 2ms;
+}

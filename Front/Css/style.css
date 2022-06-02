@@ -1,0 +1,71 @@
+html{
+    display: flex;
+    justify-content: center;
+    height:100%;
+    overflow-y: scroll;
+}
+body
+{
+    background: url("day.svg") no-repeat center center;
+    background-color: #ebd5b4;
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+}
+#day{
+   position: absolute;
+   top: 5px;
+   right: 11px;
+   width:10vh;
+   height:10vh;
+}
+#day:hover{
+    transform: rotate(360deg);
+    transition: all 2s;
+}
+#title
+{
+    font-family: "Ewert";
+    font-size: 700%;
+    text-align: center;
+    
+    margin-top: 3%;
+}
+#text
+{
+    font-family: "Passero One";
+    text-align: center;
+    font-size: 225%;
+
+    margin-top: 3%;
+}
+
+#dog{
+    display: flex;
+    justify-content: center;
+}
+
+#utilities{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+}
+#utilities>img{
+    position: absolute;
+    height:37vh;
+    width:35vh;
+}
+figcaption{
+    font-family: "Passero One";
+    font-size: 200%;
+    text-align: center;
+    
+    margin-top: 3%;
+}
+#information{
+    font-family: "Passero One";
+    font-size: 200%;
+    text-align:start;
+    
+    margin-top: 3%;
+}

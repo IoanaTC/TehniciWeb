@@ -1,0 +1,64 @@
+html{
+    display: flex;
+    height:100%;
+    overflow-y: scroll;
+}
+body
+{
+    background: url("day.svg") no-repeat center center;
+    background-color: #ebd5b4;
+    background-size: cover;
+    height: 100%;
+    width: 95%;
+    position: absolute;
+
+    left:5vh;
+    right:5vh;
+}
+#day{
+   position: absolute;
+
+   top: 5px;
+   right: 11px;
+   width:10vh;
+   height:10vh;
+}
+#day:hover{
+    transform: rotate(360deg);
+    transition: all 2s;
+}
+#title
+{
+    font-family: "Ewert";
+    font-size: 500%;
+    text-align: left;
+    
+    margin-top: 2%;
+}
+#menu{
+    background-color: burlywood;
+    border: solid black 4px;
+    width:fit-content;
+    height:fit-content;
+    padding:7px;
+
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3px;
+}
+#menu>input{
+    margin:3px;
+    height:20px;
+    width:270px;
+}
+#content{
+    font-family: "Ewert";
+    font-size: 250%;
+    text-align: left;
+
+    margin-top: 2%;
+    position: absolute;
+}
+#content>div{
+    white-space: no-wrap;
+}
